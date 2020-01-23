@@ -1,0 +1,25 @@
+{
+    "name": "rehmat-falcon/comparable",
+    "description": "A library for comparing value objects",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Kushal Niroula",
+            "email": "niroulakushal31@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Rehmat\\" : "src/",
+            "Sample\\" : "sample/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rehmat\\Test\\" : "test/"
+        }
+    }
+}
