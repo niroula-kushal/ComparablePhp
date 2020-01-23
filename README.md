@@ -17,3 +17,15 @@ When you are implementing the compare method, the method must return in the foll
 	 * -1		If current object is less than passed object
 	 * 0	    If they are equal
 	 * 1		If current object is greater than passed object
+	 
+
+# Example
+
+There is a sample implementation of Amount in Sample/ValueType directory.
+
+```php
+$amount1 = Amount::From(10);
+$amount2 = Amount::From(30);
+
+$amount1->IsLessThan($amount2); //true
+$amount1->IsGreaterThan($amount2); //false
